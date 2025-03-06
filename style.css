@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Roboto';
     display:flex;
     flex-direction:column;
     min-height: 100vh;
@@ -54,13 +56,109 @@ body {
 .upper-button {
     background-color: #3882F6;
     color: #E5E7EB;
-    border-radius: 10%;
+    border-radius: 6px;
     border: none;
     text-decoration:none;
+    text-align: center;
     font-size: 18px;
-    padding: 4px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
     font-weight: bold;
+}
+
+.umid-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.umid-content {
+    display:flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 100px;
+    gap: 160px;
+}
+
+.umid-item {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    max-width: 150px;
+    max-height: 150px;
+    text-align: center;
+}
+
+.lower-mid {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.quote {
+    display:flex;
+    font-size: 36px;
+    color: #1F2937;
+    max-width: 40%;
+    font-style: italic;
+    font-weight: 300;
+    padding-bottom: 16px;
+}
+
+.quoter {
+    font-weight: bold;
+    color: #1F2937;
+    padding-left: 20%;
+}
+
+.lower {
+    background-color:#3882F6;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left:60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+.lower-content {
     
+}
+.lower-header {
+   font-weight: bold;
+   color: #E5E7EB;
+}
+.lower-text {
+    color: #E5E7EB;
+}
+.lower-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 6px;
+    border: 2px solid #E5E7EB;
+    text-decoration:none;
+    text-align: center;
+    padding: 4px;
+    padding-left:12px;
+    padding-right: 12px;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px;
+    color:#E5E7EB;
 }
